@@ -1,6 +1,6 @@
 # AeroPredictAI Backend
 
-This is the Flask backend for the AeroPredictAI project. It serves a Machine Learning model to predict flight delay risks.
+This is the **FastAPI** backend for the AeroPredictAI project. It serves a Machine Learning model to predict flight delay risks.
 
 ## Setup
 
@@ -27,6 +27,7 @@ This is the Flask backend for the AeroPredictAI project. It serves a Machine Lea
     python app.py
     ```
     The server will start at `http://127.0.0.1:5000`.
+    *Note: FastAPI provides automatic interactive documentation at `http://127.0.0.1:5000/docs`.*
 
 ## API Endpoints
 
